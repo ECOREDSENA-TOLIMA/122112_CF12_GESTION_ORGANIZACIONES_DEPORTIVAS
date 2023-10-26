@@ -2,13 +2,20 @@
   &-1
     animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
-    top: 40%
+    top: 19%
     right: 50%
+    z-index: 1
+    width: 238px
   &-2
     animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
-    top: 51%
-    right: 30%
+    top: 77%
+    right: 22%
+  &-3
+    animation: float1 3s ease-in-out infinite alternate
+    position: absolute
+    top: 85%
+    right: 49%
 
 
 @keyframes float1
@@ -17,3 +24,60 @@
 
   100%
     transform: translateY(0px)
+
+.banner-principal
+  .banner-principal__row
+    min-height: 505px
+  .banner-principal__img
+    padding-top: 0 !important
+    padding-bottom: 0 !important
+    padding-right: 0 !important
+    max-width: 450px
+.contenedor-principal
+  .seccion-principal
+    .curso-main-container
+      .banner-interno__fondo
+        background-image: url("../assets/curso/portada/img-bg-top.png") !important
+        background-size: cover
+        background-position: left
+      .banner-interno__titulo
+        padding-top: 5.3rem !important
+        padding-bottom: 5.3rem !important
+        .banner-interno__titulo__icono i
+          color: white
+        h2
+          color: black
+          text-shadow: 0 0 5px white
+      .titulo-principal
+        .titulo-principal__numero
+          span
+            color: black
+.container-100
+  margin-left: -3rem
+  margin-right: -3rem
+  padding-right: 3rem
+  padding-left: 3rem
+
+.card-img-float
+  position: relative
+  padding: 2rem 1rem
+  padding-top: 4.5rem
+  width: 100%
+  max-width: 400px
+  margin-top: 3rem
+  .img-float
+    position: absolute
+    max-width: 85px
+    left: 50%
+    top: -40px
+    transform: translateX(-50%)
+    animation: float3 3.5s ease-in-out infinite alternate
+  p
+    font-weight: bold
+    text-align: center
+.accesibilidad
+  z-index: 3
+.lista-ul--color
+  li
+    border-bottom: 2px dotted #AFAFAF
+

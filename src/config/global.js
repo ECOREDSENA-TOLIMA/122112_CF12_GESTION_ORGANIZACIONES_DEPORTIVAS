@@ -3,16 +3,20 @@ export default {
     componenteFormativo: 'Contabilidad básica',
     descripcionCurso:
       'En este componente se abordarán temáticas relacionadas con la contabilidad básica, el concepto de empresa y las estructuras organizacionales, también se relacionarán temáticas sobre las sociedades comerciales y sus clasificaciones.',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
       {
         clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.svg'),
+        imagen: require('@/assets/curso/portada/float-1.png'),
       },
       {
         clases: ['banner-principal-decorativo-2'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
+        imagen: require('@/assets/curso/portada/float-2.svg'),
+      },
+      {
+        clases: ['banner-principal-decorativo-3'],
+        imagen: require('@/assets/curso/portada/float-3.svg'),
       },
     ],
   },
@@ -32,27 +36,56 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Contabilidad básica',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            numero: '1.1',
-            titulo: 'Titulo de segundo nivel',
-            hash: 't_1_1',
-          },
-        ],
       },
-
       {
         nombreRuta: 'tema2',
         numero: '2',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Concepto de empresa',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '2.1',
+            titulo:
+              'Clasificación, naturaleza, funcionamiento y estructura de las organizaciones',
+            hash: 't_2_1',
+          },
+          {
+            numero: '2.2',
+            titulo: 'Áreas funcionales',
+            hash: 't_2_2',
+          },
+        ],
       },
       {
         nombreRuta: 'tema3',
         numero: '3',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Importancia del departamento contable en las organizaciones',
+        desarrolloContenidos: true,
+      },
+      {
+        nombreRuta: 'tema4',
+        numero: '4',
+        titulo: 'Concepto de sociedades comerciales',
+        desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '4.1',
+            titulo: 'Clasificación de las sociedades comerciales',
+            hash: 't_4_1',
+          },
+          {
+            numero: '4.2',
+            titulo: 'Actos y registros mercantiles',
+            hash: 't_4_2',
+          },
+        ],
+      },
+      {
+        nombreRuta: 'tema5',
+        numero: '5',
+        titulo: 'Cámaras de comercio',
         desarrolloContenidos: true,
       },
     ],
@@ -103,31 +136,79 @@ export default {
   },
   complementario: [
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      link: 'https://www.google.com/',
+      tema:
+        'Clasificación, naturaleza, funcionamiento y estructura de las organizaciones',
+      referencia:
+        'Parra Moreno, C.,  & Liz, A.P. (2009) "La estructura organizacional y el diseño organizacional, una revisión bibliográfica," <em>Gestión y Sociedad</em>, (1), Article 12.',
+      tipo: 'Artículo',
+      link:
+        'https://ciencia.lasalle.edu.co/cgi/viewcontent.cgi?article=1033&context=gs',
     },
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      descarga: '/downloads/prueba.pdf',
+      tema: 'Cámaras de comercio',
+      referencia: 'Confecámaras. (s.f.) Introducción a Cámaras de Comercio.',
+      tipo: 'Página web',
+      link:
+        'https://confecamaras.org.co/representacion-de-la-red/introduccion-a-camaras-de-comercio',
     },
   ],
   glosario: [
     {
-      termino: 'Término',
-      significado: 'Texto de la definición',
+      termino: 'Contabilidad',
+      significado:
+        'es la parte de las finanzas que estudia las distintas partidas que reflejan los movimientos económicos y financieros de una empresa o entidad.',
     },
     {
-      termino: '<em>Término con extranjerismo</em>',
-      significado: 'Definición',
+      termino: 'Clasificación',
+      significado:
+        'es una función lógica que forma grupos, o series o clases de objetos similares o afines. Los objetos que pertenecen a una clase son afines en el sentido que poseen características esenciales comunes a todos ellos.',
+    },
+    {
+      termino: 'Empresa',
+      significado:
+        'entidad en la que intervienen el capital y el trabajo como factores de producción de actividades industriales o mercantiles o para la prestación de servicios.',
+    },
+    {
+      termino: 'Registro mercantil',
+      significado:
+        'registro de los comerciantes y sus establecimientos de comercio, así como el depósito de documentos de carácter mercantil más importantes para el comerciante.',
+    },
+    {
+      termino: 'Sociedades comerciales',
+      significado:
+        'sociedad que tiene como objetivo la realización de actos de comercio o, en general, una actividad sujeta al derecho mercantil, también se diferencia de una sociedad civil en el hecho de que esta última no contempla en su objeto social actos mercantiles.',
     },
   ],
   referencias: [
     {
-      referencia: '',
+      referencia:
+        'GestioPolis.com Experto. (2002). <em>Principios de Contabilidad ¿Qué son? ¿Cuáles son? ¿Para qué sirven?</em>',
+      link:
+        'https://www.gestiopolis.com/principios-de-contabilidad-que-son-cuales-son-para-que-sirven/',
+    },
+    {
+      referencia:
+        'Frías, M. (2014). <em>Manual de Contabilidad Básica</em>, Materia: Normas de la información Financiera. Universidad Autónoma del Estado de Hidalgo.',
+      link: '',
+    },
+    {
+      referencia:
+        'Gavelán Izaguirre, J. (2000) <em>Principios de contabilidad generalmente aceptados: vigencia y aplicación</em>. UNMSM. Facultad de Ciencias Contables.',
+      link: '',
+    },
+    {
+      referencia:
+        'Gómez Juárez, A., Martínez, A. (2001). <em>Introducción a la Contabilidad Financiera: Supuestos Prácticos de Contabilidad Financiera</em>. Editorial Club Universitario.',
+      link: '',
+    },
+    {
+      referencia:
+        'Chiavenato, I. (1993). <em>Iniciación a la Organización y Técnica Comercial</em>. Mc Graw Hill, Pág. 4.',
+      link: '',
+    },
+    {
+      referencia:
+        'Pallares Z., Romero, D., & Herrera M. (2005). <em>Hacer Empresa: Un Reto</em>, Cuarta Edición, Fondo Editorial Nueva Empresa, Pág. 41.',
       link: '',
     },
   ],
@@ -152,16 +233,54 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Nombre del rol',
+          nombre: 'Camilo Andrés Aramburo Parra',
+          cargo: 'Experto Temático',
+          centro: 'Centro de servicios de salud',
+        },
+        {
+          nombre: 'Paola Andrea Quintero Aguilar',
+          cargo: 'Diseñadora instruccional',
+          centro: 'Regional Bogotá, Centro de Gestión Industrial',
+        },
+        {
+          nombre: 'Carolina Coca Salazar',
+          cargo: 'Revisora Metodológica y Pedagógica',
+          centro: 'Regional Distrito Capital- Centro de Diseño y Metrología',
+        },
+        {
+          nombre: 'Rafael Neftalí Lizcano Reyes',
+          cargo: 'Responsable Desarrollo Curricular',
           centro:
-            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
+        },
+        {
+          nombre: 'Jhon Jairo Rodríguez Pérez',
+          cargo: 'Diseñador y evaluador instruccional',
+          centro: 'Regional Distrito Capital - Centro de Diseño y Metrología',
         },
       ],
     },
     {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
+        {
+          nombre: 'Gloria Lida Alzate Suarez',
+          cargo: 'Adecuador Instruccional',
+          centro:
+            'Regional Distrito Capital - Centro de gestión de mercados, Logística y Tecnologías de la información',
+        },
+        {
+          nombre: 'Alix Cecilia Chinchilla Rueda',
+          cargo: 'Asesor Metodológico',
+          centro:
+            'Regional Distrito Capital - Centro de gestión de mercados, Logística y Tecnologías de la información',
+        },
+        {
+          nombre: 'Liliana Victoria Morales Guadrón',
+          cargo: 'Responsable Línea de Producción Distrito Capital',
+          centro:
+            'Regional Distrito Capital - Centro de gestión de mercados, Logística y Tecnologías de la información',
+        },
         {
           nombre: 'Nombre responsable',
           cargo: 'Diseñador de Contenidos Digitales',
