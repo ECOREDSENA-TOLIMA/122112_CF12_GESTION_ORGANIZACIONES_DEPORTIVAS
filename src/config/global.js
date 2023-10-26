@@ -1,7 +1,8 @@
 export default {
   global: {
-    componenteFormativo: 'NOMBRE DEL COMPONENTE FORMATIVO',
-    descripcionCurso: 'BREVE DESCRIPCIÓN',
+    componenteFormativo: 'Contabilidad básica',
+    descripcionCurso:
+      'En este componente se abordarán temáticas relacionadas con la contabilidad básica, el concepto de empresa y las estructuras organizacionales, también se relacionarán temáticas sobre las sociedades comerciales y sus clasificaciones.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
