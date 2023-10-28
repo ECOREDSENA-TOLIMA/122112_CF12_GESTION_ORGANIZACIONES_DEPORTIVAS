@@ -2,20 +2,20 @@
   &-1
     animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
-    top: 19%
-    right: 50%
+    top: 13%
+    right: 44%
     z-index: 1
     width: 238px
   &-2
     animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
-    top: 77%
-    right: 22%
+    top: 78%
+    right: 14%
   &-3
     animation: float1 3s ease-in-out infinite alternate
     position: absolute
-    top: 85%
-    right: 49%
+    top: 99%
+    right: 44%
 
 
 @keyframes float1
@@ -24,6 +24,12 @@
 
   100%
     transform: translateY(0px)
+@keyframes float3
+  0%
+    transform: translateX(-50%) translateY(10px)
+
+  100%
+    transform: translateX(-50%) translateY(0px)
 
 .banner-principal
   .banner-principal__row
@@ -80,4 +86,63 @@
 .lista-ul--color
   li
     border-bottom: 2px dotted #AFAFAF
+
+.bloque-texto-d
+  &::before
+    background-color: #E9EBFD !important
+.linea-tiempo-d
+  .linea-tiempo-d__item
+    transition: all .2s linear
+    &--selected
+      .linea-tiempo-d__item__col-number
+        .linea-tiempo-d__item__number
+          background-color: #FFFAE5
+      .linea-tiempo-d__item__content
+        background-color: #FFFAE5
+.card-img-float
+  position: relative
+  padding: 2rem 1rem
+  padding-top: 4.5rem
+  width: 100%
+  max-width: 400px
+  margin-top: 3rem
+  .img-float
+    position: absolute
+    max-width: 85px
+    left: 50%
+    top: -40px
+    transform: translateX(-50%)
+    animation: float3 3.5s ease-in-out infinite alternate
+  p
+    text-align: center
+.tabs-a
+  .tabs-a__tab
+    color: Black !important
+    background-color: #F6F6F6
+
+.crd_hover_txt
+  position: relative  
+  padding: 0 !important
+  overflow: hidden !important
+  border-radius: 12px
+  h4
+    font-size: 16px
+  &:hover    
+    .crd_hover_txt--body
+      transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1) 
+      transform: translateY(0)
+
+  .crd_hover_txt--body
+    width: 100%
+    position: absolute
+    padding: 1.5rem
+    bottom: 0    
+    transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1)
+    transform: translateY(calc( 100% - 3.85rem ))
+    background-color: rgba(255, 247, 230, 1) 
+  
+  @media (min-width:1200px) and (max-width:1400px)  
+    .crd_hover_txt--body
+      p
+        font-size: 0.85em
 
