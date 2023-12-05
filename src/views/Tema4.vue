@@ -42,7 +42,7 @@
       :style="{'background-image': `url(${require('@/assets/curso/temas/tema4/bg-1.svg')})`}"
       style="background-repeat: no-repeat; background-position: left bottom; background-size: cover; margin-bottom: -3rem"
     )
-      img.mx-auto.pb-5(src="@/assets/curso/temas/tema4/img-12.svg" style="max-width: 1040px")
+      img.mx-auto.pb-5(src="@/assets/curso/temas/tema4/img-12.svg" style="max-width: 1040px" alt="Muestra actos y registros mercantiles que se detallan en la parte inferior")
 
 </template>
 

@@ -217,15 +217,15 @@ export default {
       titulo: 'ECOSISTEMA DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Claudia Patricia Aristizabal',
-          cargo: 'Responsable del Ecosistema',
+          nombre: 'Claudia Patricia Aristizábal Gutiérrez',
+          cargo: 'Responsable del equipo',
           centro: 'Dirección General',
         },
         {
-          nombre: 'Rafael Neftalí Lizcano Reyes',
-          cargo: 'Responsable de Línea de Producción',
+          nombre: 'Liliana Victoria Morales Gualdrón',
+          cargo: 'Responsable de línea de producción',
           centro:
-            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+            'Regional Distrito Capital - Centro de Gestión De Mercados, Logística y Tecnologías de la Información',
         },
       ],
     },
@@ -235,12 +235,12 @@ export default {
         {
           nombre: 'Camilo Andrés Aramburo Parra',
           cargo: 'Experto Temático',
-          centro: 'Centro de servicios de salud',
+          centro: 'Regional Antioquia - Centro de servicios de salud',
         },
         {
           nombre: 'Paola Andrea Quintero Aguilar',
           cargo: 'Diseñadora instruccional',
-          centro: 'Regional Bogotá, Centro de Gestión Industrial',
+          centro: 'Regional Bogotá - Centro de Gestión Industrial',
         },
         {
           nombre: 'Carolina Coca Salazar',
@@ -249,7 +249,7 @@ export default {
         },
         {
           nombre: 'Rafael Neftalí Lizcano Reyes',
-          cargo: 'Responsable Desarrollo Curricular',
+          cargo: 'Responsable equipo de desarrollo curricular',
           centro:
             'Regional Santander - Centro Industrial del Diseño y la Manufactura',
         },
@@ -258,52 +258,40 @@ export default {
           cargo: 'Diseñador y evaluador instruccional',
           centro: 'Regional Distrito Capital - Centro de Diseño y Metrología',
         },
+        {
+          nombre: 'Gloria Lida Alzate Suarez',
+          cargo: 'Adecuación instruccional',
+          centro:
+            'Regional Distrito Capital - Centro de Gestión De Mercados, Logística y Tecnologías de la Información',
+        },
+        {
+          nombre: 'Alix Cecilia Chinchilla Rueda',
+          cargo: 'Metodología para la formación virtual',
+          centro:
+            'Regional Distrito Capital - Centro de Gestión De Mercados, Logística y Tecnologías de la Información',
+        },
       ],
     },
     {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Gloria Lida Alzate Suarez',
-          cargo: 'Adecuador Instruccional',
+          nombre: 'Yuly Andrea Rey Quiñonez',
+          cargo: 'Diseñador web',
           centro:
-            'Regional Distrito Capital - Centro de gestión de mercados, Logística y Tecnologías de la información',
+            'Regional Distrito Capital - Centro de Gestión De Mercados, Logística y Tecnologías de la Información',
         },
         {
-          nombre: 'Alix Cecilia Chinchilla Rueda',
-          cargo: 'Asesor Metodológico',
-          centro:
-            'Regional Distrito Capital - Centro de gestión de mercados, Logística y Tecnologías de la información',
-        },
-        {
-          nombre: 'Liliana Victoria Morales Guadrón',
-          cargo: 'Responsable Línea de Producción Distrito Capital',
-          centro:
-            'Regional Distrito Capital - Centro de gestión de mercados, Logística y Tecnologías de la información',
-        },
-        {
-          nombre: 'Nombre responsable',
-          cargo: 'Diseñador de Contenidos Digitales',
-          centro:
-            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
-        },
-        {
-          nombre: 'Nombre responsable',
+          nombre: 'Jhon edinson Castañeda Oviedo',
           cargo: 'Desarrollador Fullstack',
           centro:
-            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+            'Regional Distrito Capital - Centro de Gestión De Mercados, Logística y Tecnologías de la Información',
         },
         {
           nombre: 'Nombre',
-          cargo: 'Animador y Producción audiovisual',
+          cargo: 'Animación y producción audiovisual',
           centro:
-            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
-        },
-        {
-          nombre: 'Nombre',
-          cargo: 'Actividad Didáctica',
-          centro:
-            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+            'Regional Distrito Capital - Centro de Gestión De Mercados, Logística y Tecnologías de la Información',
         },
       ],
     },
@@ -311,20 +299,21 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: 'Zuleidy María Ruiz Torres',
-          cargo: 'Validador de Recursos Educativos Digitales',
+          nombre: 'Carolina Coca Salazar',
+          cargo: 'Evaluación de contenidos inclusivos y accesibles',
           centro:
             'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
         {
-          nombre: 'Luis Gabriel Urueta Alvarez',
-          cargo: 'Validador de Recursos Educativos Digitales',
+          nombre: 'Lina Marcela Pérez Manchego',
+          cargo: 'Validación de recursos educativos digitales',
           centro:
             'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
         {
-          nombre: 'Daniel Ricardo Mutis Gómez',
-          cargo: 'Evaluador para contenidos inclusivos y accesibles',
+          nombre: 'Leyson Fabian Castaño Pérez',
+          cargo:
+            'Validación de recursos educativos digitales y vinculación LMS',
           centro:
             'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },

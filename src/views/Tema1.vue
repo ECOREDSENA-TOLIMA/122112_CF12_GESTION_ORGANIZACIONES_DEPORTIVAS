@@ -13,10 +13,10 @@
         p La contabilidad tiene como objetivos principales:
         ul.lista-ul--color.lista-ul--separador
           li.d-flex.mb-2.pb-2.align-items-start
-            img.mt-1(src="@/assets/curso/temas/decorador-ul.svg" style="max-width: 8px" data-aos="fade-right")
+            img.mt-1(src="@/assets/curso/temas/decorador-ul.svg" style="max-width: 8px" data-aos="fade-right" alt="imagen decorativa")
             p.ps-2.mb-0(data-aos="fade-left") Suministrar la información financiera, útil y oportuna para la toma de decisiones en la empresa, esta información se facilita a las personas interesadas.
           li.d-flex.mb-2.pb-2.align-items-start
-            img.mt-1(src="@/assets/curso/temas/decorador-ul.svg" style="max-width: 8px" data-aos="fade-right")
+            img.mt-1(src="@/assets/curso/temas/decorador-ul.svg" style="max-width: 8px" data-aos="fade-right" alt="imagen decorativa")
             p.ps-2.mb-0(data-aos="fade-left") Controlar las operaciones financieras, realizadas en la entidad.
       img.mx-auto.col-lg-5.col-xl-4.mb-4.my-lg-auto.order-1.order-lg-2(src="@/assets/curso/temas/tema1/img-1.png" style="max-width: 400px" data-aos="fade-left")
     
@@ -151,24 +151,6 @@
         .row.justify-content-center.mb-3
           .col-8
             img(src='@/assets/curso/temas/tema1/tj-18.png' alt='Exposición' style="max-width: 177px")
-        p.text-center.fw-bold(style="color: black") Exposición
-        p.mb-0.text-center(style="color: black") Los estados financieros deben contar con la información necesaria, para interpretar en qué situación se encuentra la entidad.
-      .tarjeta.color-acento-contenido.p-4
-        .row.justify-content-center.mb-3
-          .col-8
-            img(src='@/assets/curso/temas/tema1/tj-19.png' alt='Relación fundamental estados financieros' style="max-width: 177px")
-        p.text-center.fw-bold(style="color: black") Relación fundamental estados financieros
-        p.mb-0.text-center(style="color: black") La relación fundamental de los resultados contables se refleja en la presentación de estados financieros y estados de cuenta.
-      .tarjeta.color-acento-contenido.p-4
-        .row.justify-content-center.mb-3
-          .col-8
-            img(src='@/assets/curso/temas/tema1/tj-20.png' alt='Objetivo general de la información financiera' style="max-width: 177px")
-        p.text-center.fw-bold(style="color: black") Objetivo general de la información financiera
-        p.mb-0.text-center(style="color: black") Tiene como fin servir objetivamente, por ello la información financiera, será destinada a todos los usuarios que la requieran.
-      .tarjeta.color-acento-contenido.p-4
-        .row.justify-content-center.mb-3
-          .col-8
-            img(src='@/assets/curso/temas/tema1/tj-21.png' alt='Exposición' style="max-width: 177px")
         p.text-center.fw-bold(style="color: black") Exposición
         p.mb-0.text-center(style="color: black") Los estados financieros deben contar con la información necesaria, para interpretar en qué situación se encuentra la entidad.
 </template>

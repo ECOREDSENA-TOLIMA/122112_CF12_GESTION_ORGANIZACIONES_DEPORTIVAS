@@ -14,7 +14,7 @@
         p Toda empresa tiene objetivos, que constituyen la razón de su existencia, anteriormente estos objetivos se asociaban al sistema de economía de mercados, buscando el máximo beneficio económico, en la actualidad existen muchos tipos de objetivos, según el valor que se le pretenda dar.
 
         p La empresa se puede comparar a un organismo vivo, nacen, se desarrollan y mueren. El nacimiento de la empresa tal y como la conocemos ahora, se inicia en la edad media, esta ha ejercido a lo largo de los años un papel determinante en la economía, especialmente en el modelo capitalista. A continuación, se revisará el concepto de empresa, según algunos autores:
-      img.mx-auto.col-lg-5.col-xl-4.mb-4.my-lg-auto.order-1.order-lg-2(src="@/assets/curso/temas/tema2/img-1.png" style="max-width: 400px" data-aos="fade-left")
+      img.mx-auto.col-lg-5.col-xl-4.mb-4.my-lg-auto.order-1.order-lg-2(src="@/assets/curso/temas/tema2/img-1.png" style="max-width: 400px" data-aos="fade-left" alt="imagen decorativa") 
 
     .d-flex.flex-wrap.justify-content-around.mb-5.py-4.px-4(style="background-color: #FFEDE9")
       .col-lg-5.col-xl-4.mb-5.px-2.mb-5.mb-lg-0
@@ -34,7 +34,7 @@
     
     p.mb-5 La empresa también se podrá concebir como un sistema abierto y social, conformado por personas que persiguen metas y objetivos, adoptando unas pautas de comportamiento según el tipo de organización, también se puede entender a la empresa, como una unidad económico-social, con una producción a partir  de la coordinación del capital, el trabajo y la dirección.
 
-    img.mx-auto(src="@/assets/curso/temas/tema2/img-2.svg" style="max-width: 690px")
+    img.mx-auto(src="@/assets/curso/temas/tema2/img-2.svg" style="max-width: 690px" alt="Muestra gráfico Empresa Entidad organizada Sistema social abierto Organización de personas y recursos ")
 
     Separador
     .titulo-segundo.color-acento-contenido
@@ -43,55 +43,55 @@
     p.mb-5 Para que haya un buen funcionamiento de las empresas, estas se deben clasificar de acuerdo con diferentes características, como, su tamaño, su actividad, su forma jurídica, entre otras. A continuación, se podrá observar algunos aspectos centrales que las relaciona, tanto la clasificación de la empresa según su tamaño, de acuerdo con  el número de trabajadores; según su composición del capital; según su composición jurídica; y según su actividad económica.
 
     .d-flex.flex-wrap.mb-5
-      img.mx-auto.col-lg-5.col-xl-4.mb-4.my-lg-auto(src="@/assets/curso/temas/tema2/img-3.png" style="max-width: 400px" data-aos="fade-left")
+      img.mx-auto.col-lg-5.col-xl-4.mb-4.my-lg-auto(src="@/assets/curso/temas/tema2/img-3.png" style="max-width: 400px" data-aos="fade-left" alt="imagen decorativa")
       .col-lg-7.col-xl-8.ps-lg-4(data-aos="fade-right")
         LineaTiempoD.color-secundario
           div(numero="1" titulo="Clasificación de la empresa según su tamaño")
             ul
               li.d-flex.align-items-start
-                img.mt-1(src="@/assets/curso/temas/decorador-ul.svg" style="max-width: 8px" data-aos="fade-right")
+                img.mt-1(src="@/assets/curso/temas/decorador-ul.svg" style="max-width: 8px" data-aos="fade-right" alt="imagen decorativa")
                 p.ps-2.mb-0(data-aos="fade-left") #[b Microempresa:] menos de 10 trabajadores.
               li.d-flex.align-items-start
-                img.mt-1(src="@/assets/curso/temas/decorador-ul.svg" style="max-width: 8px" data-aos="fade-right")
+                img.mt-1(src="@/assets/curso/temas/decorador-ul.svg" style="max-width: 8px" data-aos="fade-right" alt="imagen decorativa")
                 p.ps-2.mb-0(data-aos="fade-left") #[b Pequeña empresa:] menos de 50 trabajadores.
               li.d-flex.align-items-start
-                img.mt-1(src="@/assets/curso/temas/decorador-ul.svg" style="max-width: 8px" data-aos="fade-right")
+                img.mt-1(src="@/assets/curso/temas/decorador-ul.svg" style="max-width: 8px" data-aos="fade-right" alt="imagen decorativa")
                 p.ps-2.mb-0(data-aos="fade-left") #[b Mediana empresa:] entre 50 y 250 trabajadores.
               li.d-flex.align-items-start
-                img.mt-1(src="@/assets/curso/temas/decorador-ul.svg" style="max-width: 8px" data-aos="fade-right")
+                img.mt-1(src="@/assets/curso/temas/decorador-ul.svg" style="max-width: 8px" data-aos="fade-right" alt="imagen decorativa")
                 p.ps-2.mb-0(data-aos="fade-left") #[b Gran empresa:] más de 250 trabajadores.
           div(numero="2" titulo="Clasificación según la composición del capital")
             ul
               li.d-flex.align-items-start
-                img.mt-1(src="@/assets/curso/temas/decorador-ul.svg" style="max-width: 8px" data-aos="fade-right")
+                img.mt-1(src="@/assets/curso/temas/decorador-ul.svg" style="max-width: 8px" data-aos="fade-right" alt="imagen decorativa")
                 p.ps-2.mb-0(data-aos="fade-left") #[b Empresa privada:] cuando sus recursos vienen de particulares.
               li.d-flex.align-items-start
-                img.mt-1(src="@/assets/curso/temas/decorador-ul.svg" style="max-width: 8px" data-aos="fade-right")
+                img.mt-1(src="@/assets/curso/temas/decorador-ul.svg" style="max-width: 8px" data-aos="fade-right" alt="imagen decorativa")
                 p.ps-2.mb-0(data-aos="fade-left") #[b Empresa pública:] cuando los recursos y la administración dependen del estado.
               li.d-flex.align-items-start
-                img.mt-1(src="@/assets/curso/temas/decorador-ul.svg" style="max-width: 8px" data-aos="fade-right")
+                img.mt-1(src="@/assets/curso/temas/decorador-ul.svg" style="max-width: 8px" data-aos="fade-right" alt="imagen decorativa")
                 p.ps-2.mb-0(data-aos="fade-left") #[b Empresa mixta:] cuando es compartida público-privado.
               li.d-flex.align-items-start
-                img.mt-1(src="@/assets/curso/temas/decorador-ul.svg" style="max-width: 8px" data-aos="fade-right")
+                img.mt-1(src="@/assets/curso/temas/decorador-ul.svg" style="max-width: 8px" data-aos="fade-right" alt="imagen decorativa")
                 p.ps-2.mb-0(data-aos="fade-left") #[b Empresa de autogestión:] cuando el capital está en manos de los trabajadores.
           div(numero="3" titulo="Clasificación según su forma jurídica")
             ul
               li.d-flex.align-items-start
-                img.mt-1(src="@/assets/curso/temas/decorador-ul.svg" style="max-width: 8px" data-aos="fade-right")
+                img.mt-1(src="@/assets/curso/temas/decorador-ul.svg" style="max-width: 8px" data-aos="fade-right" alt="imagen decorativa")
                 p.ps-2.mb-0(data-aos="fade-left") #[b Empresas individuales:]  cuando solo pertenece a una persona.
               li.d-flex.align-items-start
-                img.mt-1(src="@/assets/curso/temas/decorador-ul.svg" style="max-width: 8px" data-aos="fade-right")
+                img.mt-1(src="@/assets/curso/temas/decorador-ul.svg" style="max-width: 8px" data-aos="fade-right" alt="imagen decorativa")
                 p.ps-2.mb-0(data-aos="fade-left") #[b Empresas societarias o sociedades:] son las que están constituidas por varias personas.
           div(numero="4" titulo="Clasificación según su actividad económica")
             ul
               li.d-flex.align-items-start
-                img.mt-1(src="@/assets/curso/temas/decorador-ul.svg" style="max-width: 8px" data-aos="fade-right")
+                img.mt-1(src="@/assets/curso/temas/decorador-ul.svg" style="max-width: 8px" data-aos="fade-right" alt="imagen decorativa")
                 p.ps-2.mb-0(data-aos="fade-left") #[b Sector primario:] agrícola, ganadería, apícola, minería.
               li.d-flex.align-items-start
-                img.mt-1(src="@/assets/curso/temas/decorador-ul.svg" style="max-width: 8px" data-aos="fade-right")
+                img.mt-1(src="@/assets/curso/temas/decorador-ul.svg" style="max-width: 8px" data-aos="fade-right" alt="imagen decorativa")
                 p.ps-2.mb-0(data-aos="fade-left") #[b Sector secundario:] empresas industriales y de construcción.
               li.d-flex.align-items-start
-                img.mt-1(src="@/assets/curso/temas/decorador-ul.svg" style="max-width: 8px" data-aos="fade-right")
+                img.mt-1(src="@/assets/curso/temas/decorador-ul.svg" style="max-width: 8px" data-aos="fade-right" alt="imagen decorativa")
                 p.ps-2.mb-0(data-aos="fade-left") #[b Sector terciario:] comercio y servicios.
 
 
@@ -125,23 +125,23 @@
 
     TabsA.color-acento-contenido.mb-5
       .tarjeta.d-flex.flex-wrap.p-4(style="background-color: #FFFAE5" titulo="Dirección")
-        img.mx-auto.col-lg-5.mb-4.my-lg-auto(src="@/assets/curso/temas/tema2/img-13.png" style="max-width: 330px" data-aos="fade-left")
+        img.mx-auto.col-lg-5.mb-4.my-lg-auto(src="@/assets/curso/temas/tema2/img-13.png" style="max-width: 330px" data-aos="fade-left" alt="imagen decorativa")
         .col-lg-7.ps-lg-4(data-aos="fade-right")
           p Se relaciona con la operación general de la organización, en ella se definen los objetivos y se toman las decisiones más importantes. Tiene como función dirigir todas las operaciones de la organización; por su nivel de responsabilidad esta área se relaciona directamente con las demás y se encarga del control de las mismas.
       .tarjeta.d-flex.flex-wrap.p-4(style="background-color: #FFFAE5" titulo="Recursos humanos")
-        img.mx-auto.col-lg-5.mb-4.my-lg-auto(src="@/assets/curso/temas/tema2/img-14.png" style="max-width: 330px")
+        img.mx-auto.col-lg-5.mb-4.my-lg-auto(src="@/assets/curso/temas/tema2/img-14.png" style="max-width: 330px" alt="imagen decorativa")
         .col-lg-7.ps-lg-4
           p Este departamento se encarga de la gestión integral de recursos humanos, abarcando desde el reclutamiento y selección de personal hasta la administración de trámites de seguridad social, pagos, compensaciones, y la promoción del bienestar y seguridad de los empleados.
       .tarjeta.d-flex.flex-wrap.p-4(style="background-color: #FFFAE5" titulo="Producción")
-        img.mx-auto.col-lg-5.mb-4.my-lg-auto(src="@/assets/curso/temas/tema2/img-15.png" style="max-width: 330px")
+        img.mx-auto.col-lg-5.mb-4.my-lg-auto(src="@/assets/curso/temas/tema2/img-15.png" style="max-width: 330px" alt="imagen decorativa")
         .col-lg-7.ps-lg-4
           p Esta área se relación a con  la producción de bienes y servicios, es un área funcional; se realizan las transformaciones de las materias primas, para convertirlas en productos. Su responsabilidad es lograr  el mayor aprovechamiento de los recursos en el proceso productivo. Entre sus actividades está el diseño y producción de bienes y servicios, mantenimiento de maquinaria y toda el área de producción, control de calidad, almacenamiento y stock, entre otras.
       .tarjeta.d-flex.flex-wrap.p-4(style="background-color: #FFFAE5" titulo="Finanzas y contabilidad")
-        img.mx-auto.col-lg-5.mb-4.my-lg-auto(src="@/assets/curso/temas/tema2/img-16.png" style="max-width: 330px")
+        img.mx-auto.col-lg-5.mb-4.my-lg-auto(src="@/assets/curso/temas/tema2/img-16.png" style="max-width: 330px" alt="imagen decorativa")
         .col-lg-7.ps-lg-4
           p Se dedica a la gestión y control de los recursos financieros de la organización, manteniendo un registro preciso de todas las operaciones. Abarca el pago de empleados y proveedores, impuestos, créditos, préstamos y la generación de informes financieros.
       .tarjeta.d-flex.flex-wrap.p-4(style="background-color: #FFFAE5" titulo="<em>Marketing</em> y ventas")
-        img.mx-auto.col-lg-5.mb-4.my-lg-auto(src="@/assets/curso/temas/tema2/img-17.png" style="max-width: 330px")
+        img.mx-auto.col-lg-5.mb-4.my-lg-auto(src="@/assets/curso/temas/tema2/img-17.png" style="max-width: 330px" alt="imagen decorativa")
         .col-lg-7.ps-lg-4
           p Se encarga de realizar todas las acciones necesarias para que los productos y servicios lleguen a las manos el cliente, esta área se centra en el exterior de la empresa, desde allí se diseñan las estrategias de <em>marketing</em> y que tipo de mercado se deben dirigir. Allí también se lleva las siguientes acciones: gestión de puntos de venta, investigación de necesidades, comunicación con clientes entre otras.
         
