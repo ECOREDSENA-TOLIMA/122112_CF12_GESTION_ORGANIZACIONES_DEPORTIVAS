@@ -9,7 +9,7 @@
           i.fas.fa-info
       h1 Introducción
 
-    p.mb-5 Estimado aprendiz, a través del siguiente video podrá conocer los aspectos relevantes que tratará este componente:
+    p.mb-5 Estimado aprendiz, a través del siguiente video se podrá conocer los aspectos relevantes que tratará este componente:
 
     figure.col-xl-10.mx-auto.mb-5(data-aos="fade-left")
       .video

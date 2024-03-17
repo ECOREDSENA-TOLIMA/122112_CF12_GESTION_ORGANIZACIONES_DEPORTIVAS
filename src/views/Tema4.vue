@@ -25,7 +25,7 @@
 
     Separador
     .titulo-segundo.color-acento-contenido
-      h2#t_4_1 4.1. Clasificación de las sociedades comerciales 
+      h2#t_4_1 4.1 Clasificación de las sociedades comerciales 
     
     p En Colombia son cinco las formas más comunes de sociedades comerciales: sociedad anónima, sociedad por acciones simplificadas, sociedad de responsabilidad limitada, sociedad en comandita (simple o por acciones) y sociedad colectiva, sin embargo, existe otro tipo de clasificaciones como puede observar a continuación:
 
@@ -37,12 +37,16 @@
       h2#t_4_2 4.2. Actos y registros mercantiles
     
     p.mb-5 El registro mercantil es un medio de identificación del comerciante y de sus establecimientos de comercio, en determinada zona geográfica; en estos folios se registran o inscriben los establecimientos de comercio, empresas, dueños, direcciones, libros y demás elementos sujetos a revisión y control. El registro mercantil no solo permite la identificación del comercio, también permite su control.
+    
+    .titulo-sexto.color-acento-contenido.offset-1
+      h5 Figura 2.
+      span  #[i  Proceso de registro mercantil]
 
     .container-100.d-flex.flex-wrap.justify-content-center.py-5(
       :style="{'background-image': `url(${require('@/assets/curso/temas/tema4/bg-1.svg')})`}"
       style="background-repeat: no-repeat; background-position: left bottom; background-size: cover; margin-bottom: -3rem"
     )
-      img.mx-auto.pb-5(src="@/assets/curso/temas/tema4/img-12.svg" style="max-width: 1040px" alt="Muestra actos y registros mercantiles que se detallan en la parte inferior")
+      img.mx-auto.pb-5(src="@/assets/curso/temas/tema4/img-12.svg" style="max-width: 1040px" alt="En la Figura 2 se presentan los pasos relacionados con la inscripción y gestión de empresas en el registro mercantil, los cuales incluyen la matrícula, el registro, el objetivo, los actos del registro y las posibles sanciones.")
 
 </template>
 
@@ -54,7 +58,7 @@ export default {
       {
         titulo: 'Sociedades de capital',
         texto:
-          'En este tipo de sociedad, la persona jurídica responde ante posibles situaciones, solamente con el patrimonio de la empresa, es decir la responsabilidad se limita únicamente, a la propia sociedad; estos son los tipos de sociedad de capital.',
+          'En esta sociedad, la persona jurídica responde ante posibles situaciones, solo con el patrimonio de la empresa, la responsabilidad se limita solo a la propia sociedad; estos son los tipos de sociedad de capital.',
         imagen: require('@/assets/curso/temas/tema4/img-3.png'),
       },
       {
@@ -76,7 +80,7 @@ export default {
         imagen: require('@/assets/curso/temas/tema4/img-6.png'),
       },
       {
-        titulo: 'Sociedades de persona',
+        titulo: 'Sociedades de personas',
         texto:
           'Las sociedades de personas son aquellas en las que todos los socios son conocidos, asumiendo responsabilidad solidaria e ilimitada por las obligaciones. Esto les otorga a los socios el derecho a administrar la sociedad.',
         imagen: require('@/assets/curso/temas/tema4/img-7.png'),

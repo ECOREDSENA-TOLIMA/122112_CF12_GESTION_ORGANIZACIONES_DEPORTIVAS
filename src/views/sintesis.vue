@@ -7,7 +7,7 @@
     .row.justify-content-center
       .col-lg-10.mb-5
         figure
-          img(src="@/assets/curso/temas/sintesis.svg", alt="Muestra síntesis en mapa conceptual, la contabilidad básica en eventos deportivos es esencial para administrar los ingresos y gastos de las organizaciones deportivas. Este sistema recopila, clasifica y registra información financiera, brindando datos útiles para la toma de decisiones, la planificación y el control financiero. Además, ayuda a analizar recursos, prever flujos de dinero y proporcionar información esencial para la gestión efectiva de estas organizaciones.")
+          img(src="@/assets/curso/temas/sintesis.svg", alt="La síntesis del componente formativo aborda todo lo relacionado con la contabilidad básica y su vínculo con las empresas, el departamento contable, las sociedades comerciales y las cámaras de comercio.")
       .col-auto
         a.anexo.mb-5(:href="obtenerLink('/downloads/Sintesis.pdf')" target="_blank")
           .anexo__icono

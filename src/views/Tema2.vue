@@ -33,12 +33,16 @@
             i.fas.fa-quote-right
     
     p.mb-5 La empresa también se podrá concebir como un sistema abierto y social, conformado por personas que persiguen metas y objetivos, adoptando unas pautas de comportamiento según el tipo de organización, también se puede entender a la empresa, como una unidad económico-social, con una producción a partir  de la coordinación del capital, el trabajo y la dirección.
+    
+    .titulo-sexto.color-acento-contenido.offset-1
+      h5 Figura 1.
+      span  #[i  Otras definiciones de empresa]
 
-    img.mx-auto(src="@/assets/curso/temas/tema2/img-2.svg" style="max-width: 690px" alt="Muestra gráfico Empresa Entidad organizada Sistema social abierto Organización de personas y recursos ")
+    img.mx-auto(src="@/assets/curso/temas/tema2/img-2.svg" style="max-width: 690px" alt="En la Figura 1 se muestra cómo se puede denominar a una empresa, incluyendo términos como entidad organizada, organización de personas y recursos, organismo vivo o sistema social abierto")
 
     Separador
     .titulo-segundo.color-acento-contenido
-      h2#t_2_1 2.1. Clasificación, naturaleza, funcionamiento y estructura de las organizaciones
+      h2#t_2_1 2.1 Clasificación, naturaleza, funcionamiento y estructura de las organizaciones
     
     p.mb-5 Para que haya un buen funcionamiento de las empresas, estas se deben clasificar de acuerdo con diferentes características, como, su tamaño, su actividad, su forma jurídica, entre otras. A continuación, se podrá observar algunos aspectos centrales que las relaciona, tanto la clasificación de la empresa según su tamaño, de acuerdo con  el número de trabajadores; según su composición del capital; según su composición jurídica; y según su actividad económica.
 
@@ -119,7 +123,7 @@
 
     Separador
     .titulo-segundo.color-acento-contenido
-      h2#t_2_2 2.2. Áreas funcionales
+      h2#t_2_2 2.2 Áreas funcionales
     
     p.mb-5 Las áreas funcionales son los departamentos en las que se divide la organización, para optimizar el funcionamiento del mismo. Las principales áreas funcionales en las que se divide una organización son:
 
@@ -127,7 +131,7 @@
       .tarjeta.d-flex.flex-wrap.p-4(style="background-color: #FFFAE5" titulo="Dirección")
         img.mx-auto.col-lg-5.mb-4.my-lg-auto(src="@/assets/curso/temas/tema2/img-13.png" style="max-width: 330px" data-aos="fade-left" alt="imagen decorativa")
         .col-lg-7.ps-lg-4(data-aos="fade-right")
-          p Se relaciona con la operación general de la organización, en ella se definen los objetivos y se toman las decisiones más importantes. Tiene como función dirigir todas las operaciones de la organización; por su nivel de responsabilidad esta área se relaciona directamente con las demás y se encarga del control de las mismas.
+          p Se relaciona con la operación general de la organización, en ella se definen los objetivos y se toman las decisiones más importantes. Tiene como función dirigir todas las operaciones de la organización; por su nivel de responsabilidad esta área se relaciona directamente con las demás y se encarga del control de estas.
       .tarjeta.d-flex.flex-wrap.p-4(style="background-color: #FFFAE5" titulo="Recursos humanos")
         img.mx-auto.col-lg-5.mb-4.my-lg-auto(src="@/assets/curso/temas/tema2/img-14.png" style="max-width: 330px" alt="imagen decorativa")
         .col-lg-7.ps-lg-4
@@ -135,7 +139,7 @@
       .tarjeta.d-flex.flex-wrap.p-4(style="background-color: #FFFAE5" titulo="Producción")
         img.mx-auto.col-lg-5.mb-4.my-lg-auto(src="@/assets/curso/temas/tema2/img-15.png" style="max-width: 330px" alt="imagen decorativa")
         .col-lg-7.ps-lg-4
-          p Esta área se relación a con  la producción de bienes y servicios, es un área funcional; se realizan las transformaciones de las materias primas, para convertirlas en productos. Su responsabilidad es lograr  el mayor aprovechamiento de los recursos en el proceso productivo. Entre sus actividades está el diseño y producción de bienes y servicios, mantenimiento de maquinaria y toda el área de producción, control de calidad, almacenamiento y stock, entre otras.
+          p Esta área se relación a con  la producción de bienes y servicios, es un área funcional; se realizan las transformaciones de las materias primas, para convertirlas en productos. Su responsabilidad es lograr el mayor aprovechamiento de los recursos en el proceso productivo. Entre sus actividades está el diseño y producción de bienes y servicios, mantenimiento de maquinaria y toda el área de producción, control de calidad, almacenamiento y #[i stock], entre otras.
       .tarjeta.d-flex.flex-wrap.p-4(style="background-color: #FFFAE5" titulo="Finanzas y contabilidad")
         img.mx-auto.col-lg-5.mb-4.my-lg-auto(src="@/assets/curso/temas/tema2/img-16.png" style="max-width: 330px" alt="imagen decorativa")
         .col-lg-7.ps-lg-4

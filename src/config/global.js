@@ -211,6 +211,12 @@ export default {
         'Pallares Z., Romero, D., & Herrera M. (2005). <em>Hacer Empresa: Un Reto</em>, Cuarta Edición, Fondo Editorial Nueva Empresa, Pág. 41.',
       link: '',
     },
+    {
+      referencia:
+        'Cámara de Representantes. (2011). Decreto 410 (1971). Código de Comercio. Artículo 86. Funciones de las cámaras de comercio.',
+      link:
+        'https://www.camara.gov.co/sites/public_html/leyes_hasta_1991/codigo/codigo_comercio.html',
+    },
   ],
   creditos: [
     {
