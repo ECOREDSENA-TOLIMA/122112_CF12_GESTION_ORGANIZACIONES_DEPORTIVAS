@@ -120,7 +120,7 @@ export default {
       {
         icono: 'fas fa-file-pdf',
         titulo: 'Descargar PDF',
-        download: 'downloads/prueba.pdf',
+        download: 'downloads/122112_CF12_DU.pdf',
       },
       {
         icono: 'fas fa-download',
@@ -213,7 +213,7 @@ export default {
     },
     {
       referencia:
-        'Cámara de Representantes. (2011). Decreto 410 (1971). Código de Comercio. Artículo 86. Funciones de las cámaras de comercio.',
+        'Cámara de Representantes. (2011). Decreto 410 (1971). Código de Comercio. Artículo 86. Funciones de las cámaras de comercio. Recuperado de ',
       link:
         'https://www.camara.gov.co/sites/public_html/leyes_hasta_1991/codigo/codigo_comercio.html',
     },
@@ -223,15 +223,14 @@ export default {
       titulo: 'ECOSISTEMA DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Claudia Patricia Aristizábal Gutiérrez',
+          nombre: 'Milady Tatiana Villamil Castellanos',
           cargo: 'Responsable del equipo',
           centro: 'Dirección General',
         },
         {
           nombre: 'Liliana Victoria Morales Gualdrón',
           cargo: 'Responsable de línea de producción',
-          centro:
-            'Regional Distrito Capital - Centro de Gestión De Mercados, Logística y Tecnologías de la Información',
+          centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
       ],
     },
@@ -241,40 +240,45 @@ export default {
         {
           nombre: 'Camilo Andrés Aramburo Parra',
           cargo: 'Experto Temático',
-          centro: 'Regional Antioquia - Centro de servicios de salud',
+          centro: 'Centro de servicios de salud- Regional Antioquia',
         },
         {
           nombre: 'Paola Andrea Quintero Aguilar',
           cargo: 'Diseñadora instruccional',
-          centro: 'Regional Bogotá - Centro de Gestión Industrial',
+          centro: 'Centro de Gestión Industrial - Regional Bogotá',
         },
         {
           nombre: 'Carolina Coca Salazar',
           cargo: 'Revisora Metodológica y Pedagógica',
-          centro: 'Regional Distrito Capital- Centro de Diseño y Metrología',
+          centro: 'Centro de Diseño y Metrología - Regional Distrito Capital',
         },
         {
           nombre: 'Rafael Neftalí Lizcano Reyes',
           cargo: 'Responsable equipo de desarrollo curricular',
           centro:
-            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
         {
           nombre: 'Jhon Jairo Rodríguez Pérez',
           cargo: 'Diseñador y evaluador instruccional',
-          centro: 'Regional Distrito Capital - Centro de Diseño y Metrología',
+          centro: 'Centro de Diseño y Metrología - Regional Distrito Capital',
         },
         {
           nombre: 'Gloria Lida Alzate Suarez',
           cargo: 'Adecuación instruccional',
           centro:
-            'Regional Distrito Capital - Centro de Gestión De Mercados, Logística y Tecnologías de la Información',
+            'Centro de Gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
         },
         {
           nombre: 'Alix Cecilia Chinchilla Rueda',
           cargo: 'Metodología para la formación virtual',
           centro:
-            'Regional Distrito Capital - Centro de Gestión De Mercados, Logística y Tecnologías de la Información',
+            'Centro de Gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
+        },
+        {
+          nombre: 'Viviana Esperanza Herrera Quiñonez',
+          cargo: 'Evaluación instruccional',
+          centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
       ],
     },
@@ -288,16 +292,15 @@ export default {
             'Regional Distrito Capital - Centro de Gestión De Mercados, Logística y Tecnologías de la Información',
         },
         {
-          nombre: 'Jhon edinson Castañeda Oviedo',
+          nombre: 'Veimar Celis Meléndez',
           cargo: 'Desarrollador Fullstack',
-          centro:
-            'Regional Distrito Capital - Centro de Gestión De Mercados, Logística y Tecnologías de la Información',
+          centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
         {
-          nombre: 'Nombre',
+          nombre: 'Adriana Ariza Luque',
           cargo: 'Animación y producción audiovisual',
           centro:
-            'Regional Distrito Capital - Centro de Gestión De Mercados, Logística y Tecnologías de la Información',
+            'Centro de Gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
         },
       ],
     },
@@ -305,23 +308,15 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: 'Carolina Coca Salazar',
+          nombre: 'Jorge Eduardo Rueda Peña',
           cargo: 'Evaluación de contenidos inclusivos y accesibles',
-          centro:
-            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+          centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
         {
-          nombre: 'Lina Marcela Pérez Manchego',
-          cargo: 'Validación de recursos educativos digitales',
-          centro:
-            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
-        },
-        {
-          nombre: 'Leyson Fabian Castaño Pérez',
+          nombre: 'Jorge Bustos Gómez',
           cargo:
             'Validación de recursos educativos digitales y vinculación LMS',
-          centro:
-            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+          centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
       ],
     },
