@@ -42,11 +42,13 @@
       h5 Figura 2.
       span  #[i  Proceso de registro mercantil]
 
-    .container-100.d-flex.flex-wrap.justify-content-center.py-5(
-      :style="{'background-image': `url(${require('@/assets/curso/temas/tema4/bg-1.svg')})`}"
-      style="background-repeat: no-repeat; background-position: left bottom; background-size: cover; margin-bottom: -3rem"
-    )
-      img.mx-auto.pb-5(src="@/assets/curso/temas/tema4/img-12.svg" style="max-width: 1040px" alt="En la Figura 2 se presentan los pasos relacionados con la inscripción y gestión de empresas en el registro mercantil, los cuales incluyen la matrícula, el registro, el objetivo, los actos del registro y las posibles sanciones.")
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-12.desktop
+      figure
+          img(src='@/assets/curso/temas/tema2/tema-2-25_1.svg', alt='En la Figura 2 se presentan los pasos relacionados con la inscripción y gestión de empresas en el registro mercantil, los cuales incluyen la matrícula, el registro, el objetivo, los actos del registro y las posibles sanciones.') 
+      .col-lg-12.movil
+      figure
+          img(src='@/assets/curso/temas/tema2/tema-2-25_1.svg', alt='En la Figura 2 se presentan los pasos relacionados con la inscripción y gestión de empresas en el registro mercantil, los cuales incluyen la matrícula, el registro, el objetivo, los actos del registro y las posibles sanciones.')
 
 </template>
 
