@@ -120,7 +120,7 @@ export default {
       {
         icono: 'fas fa-file-pdf',
         titulo: 'Descargar PDF',
-        download: 'downloads/122112_CF12_DU.pdf',
+        download: 'downloads/122112_CF12_DU.zip',
       },
       {
         icono: 'fas fa-download',
