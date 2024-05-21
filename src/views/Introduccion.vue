@@ -13,7 +13,7 @@
 
     figure.col-xl-10.mx-auto.mb-5(data-aos="fade-left")
       .video
-        iframe(width="1280" height="720" src="https://www.youtube.com/embed/477dFkFK1rY" title="Contabilidad básica" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen)    
+        iframe(width="1280" height="720" src="https://www.youtube.com/embed/sbyNWKFdSHU" title="Contabilidad básica" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen)    
 </template>
 
 <script>
