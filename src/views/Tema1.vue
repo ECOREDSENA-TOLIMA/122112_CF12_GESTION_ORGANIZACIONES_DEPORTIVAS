@@ -62,7 +62,7 @@
           .col-8
             img(src='@/assets/curso/temas/tema1/tj-3.png' alt='Empresa en marcha' style="max-width: 177px")
         p.text-center.fw-bold(style="color: black") Empresa en marcha
-        p.mb-0.text-center(style="color: black") Sus estados financieros representaran valores históricos, o si es el caso los valores estimados de liquidación, no existe un tiempo límite en los ejercicios contables de la entidad.
+        p.mb-0.text-center(style="color: black") Sus estados financieros representarán valores históricos, o si es el caso, los valores estimados de liquidación, no existe un tiempo límite en los ejercicios contables de la entidad.
       .tarjeta.color-acento-contenido.p-4
         .row.justify-content-center.mb-3
           .col-8

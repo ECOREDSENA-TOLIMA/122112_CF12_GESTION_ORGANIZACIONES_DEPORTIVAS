@@ -22,7 +22,7 @@
         .bloque-texto-d.color-secundario.p-4.p-lg-0
           .bloque-texto-d__texto.mb-2
             i.fas.fa-quote-left
-            p.text-regular “Es una organización social que utiliza una gran variedad de recursos para alcanzar determinados objetivos". (p.4).
+            p.text-regular “Es una organización social que utiliza una gran variedad de recursos para alcanzar determinados objetivos" (p.4).
             i.fas.fa-quote-right
       .col-lg-7.col-xl-5.px-2
         p Según Pallares, Z., Diego, & Herrera, M. (2005).
@@ -101,7 +101,7 @@
 
     p Para clasificar una empresa es importante conocer su estructura organizacional, la cual se constituye como un conjunto o sistema en que se divide y coordina el trabajo dentro de una organización; se asignan funciones, se establece la autoridad, las cadenas de mando, el organigrama, y las diferentes áreas en que se divide la organización. Esta estructura organizacional debe ir de la mano con las metas y objetivos establecidos, puesto que desde allí se parte, para tener claro las necesidades de la organización.
 
-    p.mb-5 Una estructura organizacional bien planificada, permite que todas sus áreas se enfoquen adecuadamente en la consecución de los objetivos; dentro de la estructura organización se deben incluir los siguientes conceptos:
+    p.mb-5 Una estructura organizacional bien planificada, permite que todas sus áreas se enfoquen adecuadamente en la consecución de los objetivos; dentro de la estructura organizacional se deben incluir los siguientes conceptos:
 
     .d-flex.flex-wrap.mb-5
       .card-img-float.mx-auto.mx-xxl-0(style="background-color: #2D54FE" data-aos="fade-right")
@@ -114,9 +114,9 @@
 
       .card-img-float.mx-auto.mx-xxl-0(style="background-color: #FE502D" data-aos="fade-left")
         img.img-float(src="@/assets/curso/temas/tema2/img-6.svg" alt="imagen decorativa")
-        p.fw-bold Diseño de sistemas y mecanismo para la coordinación de personas según sus funciones.
+        p.fw-bold Diseño de sistemas y mecanismos para la coordinación de personas según sus funciones.
 
-    p.mb-5 Para la planeación de la estructura organizacional y garantizar un adecuado funcionamiento, en respuesta a las necesidades que plantea el entorno, y definir su política empresarial. Al contar con la política y estructura organizacional, se determinan los objetivos específicos y responsabilidades por área de trabajo, se determina las funciones y la toma de decisiones. Existen varios tipos de organización según su estructura:
+    p.mb-5 Para la planeación de la estructura organizacional y asegurar un funcionamiento adecuado que responda a las necesidades del entorno, es crucial definir una política empresarial clara. Al establecer la política y la estructura organizacional, se pueden determinar objetivos específicos y asignar responsabilidades por área de trabajo, así como definir funciones y establecer procesos de toma de decisiones.  Existen varios tipos de organizaciones según su estructura:
 
     .container-100.py-4.mb-5(style="background-color: #E9EDFF" data-aos="fade-left")
       SlyderB.col-xl-10.mx-auto(:datos="datosSlyder")
@@ -139,7 +139,7 @@
       .tarjeta.d-flex.flex-wrap.p-4(style="background-color: #FFFAE5" titulo="Producción")
         img.mx-auto.col-lg-5.mb-4.my-lg-auto(src="@/assets/curso/temas/tema2/img-15.png" style="max-width: 330px" alt="imagen decorativa")
         .col-lg-7.ps-lg-4
-          p Esta área se relación a con  la producción de bienes y servicios, es un área funcional; se realizan las transformaciones de las materias primas, para convertirlas en productos. Su responsabilidad es lograr el mayor aprovechamiento de los recursos en el proceso productivo. Entre sus actividades está el diseño y producción de bienes y servicios, mantenimiento de maquinaria y toda el área de producción, control de calidad, almacenamiento y #[i stock], entre otras.
+          p Esta área se relaciona con  la producción de bienes y servicios, es un área funcional; se realizan las transformaciones de las materias primas, para convertirlas en productos. Su responsabilidad es lograr el mayor aprovechamiento de los recursos en el proceso productivo. Entre sus actividades está el diseño y producción de bienes y servicios, mantenimiento de maquinaria y toda el área de producción, control de calidad, almacenamiento y #[i stock], entre otras.
       .tarjeta.d-flex.flex-wrap.p-4(style="background-color: #FFFAE5" titulo="Finanzas y contabilidad")
         img.mx-auto.col-lg-5.mb-4.my-lg-auto(src="@/assets/curso/temas/tema2/img-16.png" style="max-width: 330px" alt="imagen decorativa")
         .col-lg-7.ps-lg-4
@@ -147,7 +147,7 @@
       .tarjeta.d-flex.flex-wrap.p-4(style="background-color: #FFFAE5" titulo="<em>Marketing</em> y ventas")
         img.mx-auto.col-lg-5.mb-4.my-lg-auto(src="@/assets/curso/temas/tema2/img-17.png" style="max-width: 330px" alt="imagen decorativa")
         .col-lg-7.ps-lg-4
-          p Se encarga de realizar todas las acciones necesarias para que los productos y servicios lleguen a las manos el cliente, esta área se centra en el exterior de la empresa, desde allí se diseñan las estrategias de <em>marketing</em> y que tipo de mercado se deben dirigir. Allí también se lleva las siguientes acciones: gestión de puntos de venta, investigación de necesidades, comunicación con clientes entre otras.
+          p Se encarga de realizar todas las acciones necesarias para que los productos y servicios lleguen a las manos del cliente, esta área se centra en el exterior de la empresa, desde allí se diseñan las estrategias de <em>marketing</em> y que tipo de mercado se deben dirigir. Allí también se llevan las siguientes acciones: gestión de puntos de venta, investigación de necesidades, comunicación con clientes, entre otras.
         
 </template>
 
@@ -167,13 +167,13 @@ export default {
       {
         titulo: 'Organización funcional',
         texto:
-          'Compuesto por varias áreas de trabajo, según las funciones; se asignan las responsabilidades según área de trabajo, estas se basan en la habilidad de cada persona, es ideal para las empresas de mediana o alto número de trabajadores.',
+          'Compuesto por varias áreas de trabajo, según las funciones; se asignan las responsabilidades según área de trabajo, estas se basan en la habilidad de cada persona, es ideal para las empresas de mediano o alto número de trabajadores.',
         imagen: require('@/assets/curso/temas/tema2/img-8.png'),
       },
       {
         titulo: 'Organización jerárquica',
         texto:
-          'Es una de las más utilizadas, en especial en las medianas empresas, está dividida en dependencias con unos responsables con cargos superiores donde recaen la toma de decisiones.',
+          'Es una de las más utilizadas, en especial en las medianas empresas, está dividida en dependencias con unos responsables con cargos superiores donde recae la toma de decisiones.',
         imagen: require('@/assets/curso/temas/tema2/img-9.png'),
       },
       {

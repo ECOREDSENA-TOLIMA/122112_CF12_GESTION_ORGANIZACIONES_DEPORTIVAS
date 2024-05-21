@@ -13,7 +13,7 @@
         p Las cámaras de comercio, son personas jurídicas, sin ánimo de lucro, de carácter corporativo gremial, las cuales tienen como función la de fomentar el desarrollo empresarial de la región, suministrar información comercial, y cumplir con la función pública de llevar el registro mercantil, de las entidades sin ánimo de lucro, y el registro único de proponentes delegados legalmente, sin que formen parte integrante de la administración pública, ni al régimen legal aplicable a las entidades que forman parte de la misma. Estas promueven el mejoramiento y progreso de la empresa privada, como uno de los pilares fundamentales de la economía en Colombia.
         .cajon.color-primario.p-4(style="background-color: #E0F4FE")
           p.mb-0 Las cámaras de comercio constituyen un modelo público-privando, a través del cual se realizan los fines constitucionales de promoción de la prosperidad en general del empresariado, de la libertad de empresa como base fundamental del desarrollo nacional, la solidaridad y de participar en la vida económica del país.
-    p.mb-5 Según el código de comercio, en su artículo 86, las cámaras ejercerán las siguientes funciones principales, entre otras:
+    p.mb-5 Según el Código de Comercio, en su artículo 86, las cámaras ejercerán las siguientes funciones principales, entre otras:
 
     .d-flex.flex-wrap.mb-5
       .col-lg-7.col-xl-8.pe-lg-4.order-2.order-lg-1(data-aos="fade-left")
