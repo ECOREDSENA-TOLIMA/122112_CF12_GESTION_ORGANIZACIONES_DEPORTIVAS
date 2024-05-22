@@ -22,14 +22,14 @@
         .bloque-texto-d.color-secundario.p-4.p-lg-0
           .bloque-texto-d__texto.mb-2
             i.fas.fa-quote-left
-            p.text-regular “Es una organización social que utiliza una gran variedad de recursos para alcanzar determinados objetivos" (p.4).
+            p.text-regular “Es una organización social que utiliza una gran variedad de recursos para alcanzar determinados objetivos.” (p.4)
             i.fas.fa-quote-right
       .col-lg-7.col-xl-5.px-2
         p Según Pallares, Z., Diego, & Herrera, M. (2005).
         .bloque-texto-d.color-secundario.p-4.p-lg-0
           .bloque-texto-d__texto.mb-2
             i.fas.fa-quote-left
-            p.text-regular  “Un sistema dentro del cual una persona o grupo de personas desarrollan un conjunto de actividades encaminadas a la producción y/o distribución de bienes y/o servicios, enmarcados en un objeto social determinado” (p.41).
+            p.text-regular  “Un sistema dentro del cual una persona o grupo de personas desarrollan un conjunto de actividades encaminadas a la producción y/o distribución de bienes y/o servicios, enmarcados en un objeto social determinado.” (p.41)
             i.fas.fa-quote-right
     
     p.mb-5 La empresa también se podrá concebir como un sistema abierto y social, conformado por personas que persiguen metas y objetivos, adoptando unas pautas de comportamiento según el tipo de organización, también se puede entender a la empresa, como una unidad económico-social, con una producción a partir  de la coordinación del capital, el trabajo y la dirección.
